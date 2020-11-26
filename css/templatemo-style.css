@@ -590,7 +590,7 @@ input { height: 50px; }
   }
 
   /* Make sure all circles are at the same spot */
-  .exp-left::after, .right::after {
+  .exp-left::after, .exp-right::after {
   left: 15px;
   }
   
