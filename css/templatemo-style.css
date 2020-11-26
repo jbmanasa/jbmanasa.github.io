@@ -601,6 +601,24 @@ input { height: 50px; }
 }
 
 
+.my-fa {
+    display:inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    font-size:inherit;
+    text-rendering:auto;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    transform:translate(0, 0)
+}
+
+.prof-level {
+    color:#186496;
+}
+
+.inter-level {
+    color:#226850;
+}
+
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
