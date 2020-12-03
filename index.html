@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/templatemo-style.css">
 	<link href='//fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/chatroom.css" />
 <!-- 
 
 Ultra Profile
@@ -285,6 +286,27 @@ https://templatemo.com/tm-464-ultra-profile
             </div>
         </section>
         <!-- END CONTACT -->
+
+
+        <section class="chat_section">
+            <div class="chat-container"  style="height:100px; width: 500px; margin:auto"></div>
+        </section>    
+    
+        
+        <script src="https://npm-scalableminds.s3.eu-central-1.amazonaws.com/@scalableminds/chatroom@master/dist/Chatroom.js">
+
+        </script>
+        <script type="text/javascript">
+            var chatroom = new window.Chatroom({
+                host: "http://ec2-13-126-191-160.ap-south-1.compute.amazonaws.com:5000",
+              title: "Chat with Manasa Bot (Manasa Bhat get it?)",
+              container: document.querySelector(".chat-container"),
+              welcomeMessage: "Hi, I am Manasa. How may I help you?",
+            });
+            //chatroom.openChat();
+        </script>
+       
+
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/smoothscroll.js"></script>
